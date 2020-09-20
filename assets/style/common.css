@@ -1,0 +1,126 @@
+/* 将很多页面都会用到的css代码移动到此处 */
+/* 页面总体样式 */
+/* 顶部导航栏 */
+/* 首页样式 */
+.layout{
+    background-color:#f6f6f6;
+    padding-top:70px;
+}
+
+.navbar{
+    background-color:#fff;
+}
+
+.navbar .navbar-brand{
+    color:#0084ff;
+    font-size:26px;
+    font-weight:bold;  
+}
+
+/* 右侧菜单 */
+.right-menu-box{
+    padding:10px;
+    background-color:#fff;
+    /* 必须在父一级设置flex子级中关于flex的设置才会生效 */
+    display:flex;
+    flex-wrap:wrap;
+    border:1px solid #f0f2f7;
+}
+
+.right-menu-box .menu-item{
+    /* 表示：允许扩张，允许收缩，以百分比来定义宽度 */
+    /* 六个元素设置成两行三列 */
+    flex:1 1 33.33%;
+    display:flex;
+    /* 主轴为垂直方向，从上到下 */
+    flex-direction:column;
+    text-align:center;
+}
+
+.right-menu-box .menu-item:hover{
+    text-decoration:none;
+}
+
+.right-menu-box .menu-item i{
+    padding:10px;
+    color:#8590a6;
+}
+
+.right-menu-box .menu-item span{
+    color:#444;
+}
+
+/* //右侧菜单 */
+/* 创作者入口 */
+
+.right-creater-box{
+    padding:15px;
+    margin:10px 0;
+    background-color:#fff;
+    border:1px solid #f0f2f7;
+    /* display:flex;  这里不能写flex布局，否则会使得a默认向左侧对其，后面flex就不起作用了*/
+    
+
+}
+
+.right-creater-box a{
+    display:flex;
+    justify-content:space-between;
+}
+
+.right-creater-box a span{
+    color:#8590a6;
+}
+
+.right-creater-box a i{
+    color:#8590a6;
+}
+
+/* //创作者入口 */
+
+/* 右下菜单 */
+.right-down-menu{
+    padding:10px;
+    margin:10px 0;
+    background-color:#fff;
+    display:flex;
+    flex-wrap:wrap;
+    border:1px solid #f0f2f7;
+}
+.right-down-menu .menu-Live span:hover,
+.right-down-menu .menu-Live .glyphicon{
+    color:#FFCF2E
+}
+.right-down-menu .menu-store span:hover,
+.right-down-menu .menu-store .glyphicon{
+    color:#0084ff
+}
+
+.right-down-menu .down-menu{
+    flex:1 1 33.33%;
+    /* 要设置子类的布局，就要在父类定义flex */
+    display:flex;
+    flex-direction:column;
+    text-align:center;
+}
+
+.right-down-menu .down-menu:hover{
+    text-decoration:none;
+}
+
+.right-down-menu .down-menu i{
+    padding:10px;
+    color:#8590a6
+}
+
+.right-down-menu .down-menu span{
+    color:#8590a6
+}
+
+/* //右下菜单 */
+
+/* 盒子的包装 1px的边框 白色背景 */
+.box-wrap{
+    background-color:#fff;
+    border:1px solid #f0f2f7
+}
