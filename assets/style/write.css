@@ -1,0 +1,28 @@
+.write-form{
+padding:30px;
+background-color: #fff;
+
+}
+
+.write-form .upload-file{
+    height:150px;
+    width:100%;
+    background-color: #f6f6f6;
+    position:relative;
+    background-size:100%;
+    background-repeat:no-repeat
+}
+
+.write-form .upload-file input{
+    display:none;
+}
+
+.write-form .upload-file i{
+    position:absolute;
+    left:50%;
+    top:50%;
+    color:#8590a6;
+    font-size:32px;
+    transform:translate(-50%,-50%)
+}
+

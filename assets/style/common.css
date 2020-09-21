@@ -93,9 +93,24 @@
 }
 .right-down-menu .menu-store span:hover,
 .right-down-menu .menu-store .glyphicon{
-    color:#0084ff
+    color:#3ED485
 }
-
+.right-down-menu .menu-round span:hover,
+.right-down-menu .menu-round .glyphicon{
+    color:#0084FC
+}
+.right-down-menu .menu-column span:hover,
+.right-down-menu .menu-column .glyphicon{
+    color:#0388E8
+}
+.right-down-menu .menu-consult span:hover,
+.right-down-menu .menu-consult .glyphicon{
+    color:#5378EC
+}
+.right-down-menu .menu-wiki span:hover,
+.right-down-menu .menu-wiki .glyphicon{
+    color:#5769CE
+}
 .right-down-menu .down-menu{
     flex:1 1 33.33%;
     /* 要设置子类的布局，就要在父类定义flex */
@@ -116,8 +131,52 @@
 .right-down-menu .down-menu span{
     color:#8590a6
 }
+/* 右下个人菜单区 */
+.right-user-menu{
+    padding:20px 0 0 0;
+}
+
+.list-group a{
+    background-color:#fff;
+    border:1px solid #fff;
+    color:#8590a6;
+    
+}
+
+.list-group a:hover{
+    background-color:#f0f2f7;
+    border:1px solid #f0f2f7;
+    color:#8590a6;
+}
+
+.list-group a i{
+    margin-right:5px;
+}
+
+.list-group a span{
+    background-color:#A0ABCE
+}
 
 /* //右下菜单 */
+
+/* 右侧版权指南区 */
+.guide-menu{
+    padding:15px;
+    display:flex; 
+    flex-direction:row;
+    flex-wrap:wrap;
+}
+.guide-menu a{
+    color:#8590a6;
+    padding:5px 0;
+    font-size:13px;
+    display:block;
+    
+   
+}
+
+
+
 
 /* 盒子的包装 1px的边框 白色背景 */
 .box-wrap{

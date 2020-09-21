@@ -1,0 +1,87 @@
+.login-header .title{
+    color:#0084ff;
+}
+.login-header .slogan{
+    padding-bottom:20px;
+}
+
+
+/* 表单注册 */
+.login-form{
+padding:30px;
+}
+
+.login-form .form-group{
+    padding:10px 0;
+}
+
+.login-form button{
+    padding:10px 0
+}
+
+.login-form .form-group label{
+    text-align:left;
+    font-size:16px
+
+}
+
+
+.login-form .control-label{
+    padding-right:0px;
+
+}
+
+.login-form .desc{
+    padding:10px;
+    margin-top:10px;
+    background-color:#f6f6f6;
+    color:grey
+}
+
+
+
+
+/* 社交账号登陆 */
+
+.login-social{
+    padding:15px 20px;
+    margin-top:20px;
+    background-color:#fff;
+    display:flex;
+    justify-content:space-between;
+    font-size:15px;
+    
+}
+
+.login-social .iconfont{
+    font-size:18px;
+    padding:0 10px
+}
+
+.login-social .icon-wechat{
+    color:#45c45d;}
+
+.login-social .icon-qq{
+    color:#4cafe9;
+}
+.login-social .icon-weibo{
+    color:#d81e61;
+}
+/* //社交账号登陆 */
+
+
+/* 页脚 */
+.login-footer{
+    text-align:center;
+    padding-top:20px;
+}
+.login-footer a{
+    padding:10px;
+    color:grey;
+    text-decoration:none;
+}
+
+
+
+
+
